@@ -10,7 +10,7 @@ def train_model():
     if device == "cuda":
         print(torch.cuda.get_device_name(torch.cuda.current_device()))
 
-    model = YOLO("best.pt").to(device)
+    model = YOLO("assets\models\OPTCG_prototype_V1.pt").to(device)
     results = model.train(data="config.yaml", epochs=EPOCHS)
 
 
