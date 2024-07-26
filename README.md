@@ -9,8 +9,8 @@ Before starting, you will need to have Python installed on your machine. This pr
 Clone the repository to your local machine using the following command in your terminal:
 
 ```bash
-git clone https://github.com/brunoedcf/OPTCG-Card-Classifier.git
-cd OPTCG-Card-Classifier
+git clone https://github.com/brunoedcf/OPTCG-YOLO-Train.git
+cd OPTCG-YOLO-Train
 python -m venv venv
 ./venv/Scripts/Activate.ps1
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
